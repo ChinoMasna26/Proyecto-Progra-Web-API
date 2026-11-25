@@ -1,0 +1,29 @@
+{
+  "name": "almacen-equipos-api",
+  "version": "1.0.0",
+  "description": "API REST del Almacén de Equipos: Node.js + Express + Sequelize + PostgreSQL",
+  "scripts": {
+    "dev": "node --watch src/servidor.js",
+    "start": "node src/servidor.js",
+    "db:preparar": "node src/db/preparar.js",
+    "test": "node --test --test-concurrency=1"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0",
+    "jsonwebtoken": "^9.0.3",
+    "pg": "^8.23.1",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.8"
+  },
+  "devDependencies": {
+    "supertest": "^7.3.2"
+  },
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  }
+}
