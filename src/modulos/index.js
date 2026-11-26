@@ -5,4 +5,6 @@
  * Los imports son estáticos para que Vercel incluya todo al empaquetar la API. Cada
  * integrante agrega aquí la línea de su historia en su pull request.
  */
-export const modulos = []
+import cuentas from './hu1-cuentas/index.js'
+
+export const modulos = [cuentas]
