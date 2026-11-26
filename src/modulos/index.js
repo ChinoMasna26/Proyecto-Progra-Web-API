@@ -6,5 +6,6 @@
  * integrante agrega aquí la línea de su historia en su pull request.
  */
 import cuentas from './hu1-cuentas/index.js'
+import inventario from './hu2-inventario/index.js'
 
-export const modulos = [cuentas]
+export const modulos = [cuentas, inventario]
