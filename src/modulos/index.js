@@ -8,5 +8,6 @@
 import cuentas from './hu1-cuentas/index.js'
 import inventario from './hu2-inventario/index.js'
 import reservas from './hu6-reservas/index.js'
+import solicitudes from './hu3-solicitudes/index.js'
 
-export const modulos = [cuentas, inventario, reservas]
+export const modulos = [cuentas, inventario, reservas, solicitudes]
